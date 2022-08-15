@@ -1,0 +1,66 @@
+.roles-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scrum-roles-item {
+    display: flex;
+    width: 50%;
+}
+
+.scrum-roles-item img,
+.scrum-roles-item div h6 {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.scrum-roles-item div,
+.scrum-roles-item div p {
+    text-align: start;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.scrum-roles-item p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.scrum-role-list {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.scrum-events {
+    display: flex;
+    align-items: center;
+}
+
+.events-list li {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.artifact-list li {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.artifact-list li div {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.artifact-list li div h6 {
+    margin: 0;
+}
+
+.artifact-list li div p {
+    margin-top: 10px;
+}
